@@ -675,28 +675,11 @@ a {
   .mobile img{
     display: block !important;
   }
-/* 
-    
-  #navbar #myDropdown-mob{
-    padding: 0px 20px;
-  }
-
-  .dropdown-content-mob {
-    display: none !important;
-    position: absolute;
-    background-color: #fff;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
-    z-index: 1;
-    border-radius: 15px;
-  }
-
-  .show {display: block !important;} */
 
     .header{
       background-image: none;
       padding: 0;
+      background: none;
     }
 
     #navbar{

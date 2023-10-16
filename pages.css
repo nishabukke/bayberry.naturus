@@ -945,6 +945,7 @@ display: block;
         .header{
           background-image: none;
           padding: 0;
+          background: none;
         }
     
         #navbar{
