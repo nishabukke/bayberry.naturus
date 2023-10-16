@@ -534,19 +534,16 @@ a {
                      Responsive Mobile Menu 
     ======================================================*/
   .overlay-menu {
-    background: lightblue;
-    color: rgb(13, 26, 38);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #fff;
+    z-index: 9;
+    color: #272727;
     position: absolute;
     top: 0;
     right: 0;
-    padding-right: 15px;
+    padding: 150px 50px;
     transform: translateX(-100%);
     width: 100vw;
     height: 100vh;
-    -webkit-transition: transform 0.2s ease-out;
     transition: transform 0.2s ease-out;
   }
   
@@ -557,16 +554,10 @@ a {
   
   .overlay-menu li a {
     display: block;
-    font-size: 1.8em;
-    letter-spacing: 4px;
-  /*   opacity: 0; */
+    font-size: 14px;
+    letter-spacing: 2px;
     padding: 10px 0;
-    text-align: right;
-    text-transform: uppercase;
-    -webkit-transition: color 0.3s ease;
     transition: color 0.3s ease;
-  /*   -webkit-transition: 0.2s opacity 0.2s ease-out;
-    transition: 0.2s opacity 0.2s ease-out; */
   }
   
   .overlay-menu ul li a:hover {
@@ -578,6 +569,19 @@ a {
     color: #b26c24;
   }
 
+  .dropdown-content-mob {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+  }
+
+  .dropdown-content-mob li a{
+    border: 1px solid #eee;
+    padding: 10px 35px;
+  }
 
   .mobile img{
     display: none !important;

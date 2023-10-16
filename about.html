@@ -7,6 +7,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/bayberry.ico" type="image/x-icon">
     <link rel="stylesheet" href="pages.css">
     <title>Naturus</title>
 </head>
@@ -51,7 +52,12 @@
                             <li><a href="index.html">Home</a></li><!--
                             --><li><a href="products.html">Products</a></li><!--
                             --><li><a href="technology.html">Technology</a></li><!--
-                         --><li><a href="about.html" class="active">About</a></li><!--
+                         --><li><a href="#" onclick="dropDown()" class="dropbtn-mob">About</a>
+                            <ul id="mobileDropdown" class="dropdown-content-mob">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="expertise.html">Expertise</a></li>
+                            </ul>
+                        </li><!--
                          --><li><a href="contact.html">Contact</a></li>
                           </ul>
             </div>
@@ -177,6 +183,15 @@
               }
             }
           }
+        }
+
+        function dropDown() {
+            var x = document.getElementById("mobileDropdown");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
         }
         </script>
     <script src="javascript.js"></script>

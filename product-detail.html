@@ -9,6 +9,7 @@
       <!-- Link Swiper's CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="images/bayberry.ico" type="image/x-icon">
     <link rel="stylesheet" href="pages.css">
     <title>Naturus</title>
 </head>
@@ -53,7 +54,12 @@
                             <li><a href="index.html">Home</a></li><!--
                             --><li><a href="products.html" class="active">Products</a></li><!--
                             --><li><a href="technology.html">Technology</a></li><!--
-                         --><li><a href="about.html">About</a></li><!--
+                         --><li><a href="#" onclick="dropDown()" class="dropbtn-mob">About</a>
+                            <ul id="mobileDropdown" class="dropdown-content-mob">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="expertise.html">Expertise</a></li>
+                            </ul>
+                        </li><!--
                          --><li><a href="contact.html">Contact</a></li>
                           </ul>
             </div>
@@ -226,6 +232,15 @@
               }
             }
           }
+        }
+        
+        function dropDown() {
+            var x = document.getElementById("mobileDropdown");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
         }
         </script>
     <script>
