@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="pages.css">
+    <title>Naturus</title>
+</head>
+<body>
+    <div class="wrapper container-fluids">
+        <div class="header">
+            <nav id="navbar" class="">
+                        <div class="nav-wrapper">
+                          <!-- Navbar Logo -->
+                          <div class="logo">
+                            <!-- Logo Placeholder for Inlustration -->
+                            <a href="#home"><img src="images/bayberry.jpg" alt=""></a>
+                          </div>
+                      
+                          <!-- Navbar Links -->
+                          <ul id="menu">
+                            <li><a href="index.html">Home</a></li><!--
+                         --><li><a href="products.html" class="active">Products</a></li><!--
+                         --><li><a href="technology.html">Technology</a></li><!--
+                         --><li><a href="#" onclick="myFunction()" class="dropbtn">About</a>
+                            <ul id="myDropdown" class="dropdown-content">
+                                <li><a href="about.html">About us</a></li>
+                                <li><a href="expertise.html">Expertise</a></li>
+                            </ul>
+                        </li><!--
+                         --><li><a href="contact.html">Contact</a></li>
+                          </ul>
+                        </div>
+            </nav>
+            <div class="logo mobile">
+                <!-- Logo Placeholder for Inlustration -->
+                <a href="index.html"><img src="images/bayberry.jpg" alt=""></a>
+              </div>  
+            <!-- Menu Icon -->
+            <div class="menuIcon">
+                        <span class="icon icon-bars"></span>
+                        <span class="icon icon-bars overlay"></span>
+            </div>
+                       
+            <div class="overlay-menu">
+                        <ul id="menu">
+                            <li><a href="index.html">Home</a></li><!--
+                            --><li><a href="products.html" class="active">Products</a></li><!--
+                            --><li><a href="technology.html">Technology</a></li><!--
+                         --><li><a href="about.html">About</a></li><!--
+                         --><li><a href="contact.html">Contact</a></li>
+                          </ul>
+            </div>
+        </div>
+
+        <div class="products-header">
+            <h1 class="headings">Products</h1>
+        </div>
+
+        <section class="products-section p-5">
+            <div class="row mt-5">
+                <div class="col-12 col-md-12 col-lg-12 col-sm-12">
+                    <p class="m-0 text-center product-desc">At Bayberry Naturus, we take pride in harnessing the power of SCFE CO2technology and
+                        sourcing high-quality raw materials to provide you with residue and toxic free Oleoresins
+                        which are consistent with flavors, aroma and colors.</p>
+                </div>
+            </div>
+            <div class="row pt-5">
+                <div class="col-12 col-lg-3 col-md-3 col-sm-12">
+                    <div class="d-flex justify-content-around text-center flex-column gap-2"> 
+                        <div class="TabButton TabButtonSelected" id="Tab1" onclick="activeTab(event, 'Tab1')"><a>Oleoresins</a></div>
+                        <div class="TabButton " id="Tab2" onclick="activeTab(event, 'Tab2')"><a>Oils</a></div>
+                        <div class="TabButton " id="Tab3" onclick="activeTab(event, 'Tab3')"><a>Essential Oils</a></div>
+                        <div class="TabButton " id="Tab4" onclick="activeTab(event, 'Tab4')"><a>Natural Blends</a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9 col-md-9 col-sm-12">
+                    <div id="SectionTab1" class="tab-section d-chart-n d-chart-show" >
+                        <h4><span style="color:#b26c24">Oleoresins<hr></h4>
+                            <p>Oleoresins are the concentrated liquid form of raw materials. They are complex mixtures
+                                of volatile and non-volatile compounds. With our extensive range of oleoresins, Bayberry Naturus offer a diverse selection to the domestic and international markets. Our portfolio encompasses a wide variety of oleoresins derived from different botanical sources, ensuring a rich array of flavors, aromas, and colors to cater to the diverse needs of our customers- the food, beverage, fragrance, pharmaceutical and cosmetic industries</p>
+                            <p>The provision of custom-made blends allows us to offer a personalized solution that goes
+                                beyond the standard offerings Experience the excellence of our custom-made blends and explore the remarkable potential they hold for enhancing your products and delighting your customers. Choose Bayberry NATURUS for an unparalleled range of oleoresins designed to elevate your offerings to new heights.</p>
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                <div class="product-content">
+                                    <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                    <div class="stars pt-3">
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    </div>
+                                    <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                    <div class="desc">
+                                        <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                <div class="product-content">
+                                    <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                    <div class="stars pt-3">
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    </div>
+                                    <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                    <div class="desc">
+                                        <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                                <div class="product-content">
+                                    <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                    <div class="stars pt-3">
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                        <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    </div>
+                                    <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                    <div class="desc">
+                                        <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
+                   <div id="SectionTab2" class="tab-section d-chart-n">
+                    <h4><span style="color:#b26c24">Oils<hr></h4>
+                        <p>Spice are essential ingredients of our food and eatables. But their use is not limited to food only. It serves many other functions in industry like preservative. Ingredients of spice are extracted and used in various application in food industry. Oils and other ingredients are obtained from spice for various uses.</p>
+                        <p>Oils are extracted as concentrated viscous liquids form of the spices. They can be extracted with non-aqueous solvents followed by removal of the solvent by vacuum distilation. These spice derivatives have the same character, flavour and property of the spice it is obtained from. It contains both the volatile and non volatile constituents of the spices. They fully reproduce the character of the respective spice and spice oils. Oils can replace whole/ground spices without impairing any flavour and aroma characteristic. Spice oil guarantee superior quality of flavour & aroma and are complete and balanced, consistent and standardised.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div id="SectionTab3" class="tab-section d-chart-n">
+                    <h4><span style="color:#b26c24">Essential Oils<hr></h4>
+                        <p>Essential oils are the volatile components present in most spices, herbs and other plant produces. They provide the characteristic aroma of the respective produces/plant parts. Essential oils are normally extracted by steam distillation.</p>
+                        <p>Essential oils in any quality standard required for the particular end use in Food, Cosmetics, Confectionery, Dairy, Agriculture, Defense, Beverage, Pharmaceutical, Savory & Seasoning and Meat & Seafood.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                   <div id="SectionTab4" class="tab-section d-chart-n">
+                    <h4><span style="color:#b26c24">Natural Blends<hr></h4>
+                        <p>Spice Blends is mixture of various spices essential oils and oleoresins. They have taste, flavor, color and nutritional properties of ground/original spices. Spice blends has the advantages of consistency in quantity, flavours, aroma, quality standards, long shelf-life, easy-cooking, handling convenience etc.</p>
+                        <p>We are capable to offer innovative Spice Blends suitable for Food Industries, Various Food Industries such as Pickles, Sauces, Seasonings, Hotel Industries, Beverage Industries etc.</p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                            <div class="product-content">
+                                <a href="product-detail.html"><img src="images/ginger.png" alt="" ></a>
+                                <div class="stars pt-3">
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                    <i class="fa-solid fa-star" style="color: #efc360;"></i>
+                                </div>
+                                <h5 class="titleText p-3">Ginger Oleoresin</h5>
+                                <div class="desc">
+                                    <p>Ginger Oleoresin is extracted from the rhizomes of the Zingiber officinale, or Ginger plant. Gingerol is the main active component present in ginger.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="footer p-5">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                    <div class="footer-logo logo d-flex flex-column gap-4">
+                        <img src="images/bayberry.jpg" alt="" class="m-0">
+                        <p class="pt-3">Our Expertise on the SCFE process grants us precise control over extraction parameters such as temperature and pressure, allowing us to achieve extracts with unparalleled purity and potency.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                    <div class="footer-contact-links d-flex flex-column gap-2">
+                        <h4>Contact Information</h4>
+                        <div class="footer-links d-flex gap-3 align-items-baseline pt-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>+91 9021333123 / 9021734123 / 7028909002</p>
+                        </div>
+                        <div class="footer-links d-flex gap-3 align-items-baseline">
+                            <i class="fa-solid fa-globe"></i>
+                            <p class="m-0">215-216, Second Floor, Lotus Court Building, <br> Pune-Satara Road,
+                                Pune - 411 009 India.</p>
+                        </div>
+                        <div class="footer-links d-flex gap-3 align-items-baseline">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>info@bayberry.co.in</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 col-sm-12">
+                    <div class="footer-product-links">
+                        <h4>Products</h4>
+                        <ul class="d-flex flex-column gap-3 pt-4">
+                            <a href="products.html"><li>Oleoresins</li></a>
+                            <a href="products.html"><li>Oils</li></a>
+                            <a href="products.html"><li>Essential Oil</li></a>
+                            <a href="products.html"><li>Natural Blends</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p class="m-0 text-center pt-5 copyright">Copyright © 2023 | Bayberry Naturus | All Rights Reserved | Privacy Policy</p>
+        </section>
+    </div>
+
+    <!-- custom js files -->
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+          document.getElementById("myDropdown").classList.toggle("show");
+        }
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.matches('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
