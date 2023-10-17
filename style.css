@@ -298,7 +298,7 @@ a {
   
   #navbar #menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
     transition: transform 0.5s ease-out;
   } 
@@ -605,6 +605,11 @@ a {
     display: none !important;
   }
 
+  .mobile{
+    display: flex;
+    width: max-content;
+  }
+
 
   @media screen and (max-width:768px) {
 
@@ -816,5 +821,15 @@ a {
     .carousel-img .swiper-slide{
       width: 250px !important;
       padding: 30px 15px;
+    }
+
+    /* footer */
+
+    .footer .row{
+      gap: 10px;
+    }
+
+    .footer-product-links ul{
+      gap: 10px !important;
     }
   }

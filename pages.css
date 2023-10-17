@@ -185,7 +185,7 @@ a {
   
   #navbar #menu {
     display: flex;
-    gap: 30px;
+    gap: 20px;
     list-style: none;
     transition: transform 0.5s ease-out;
   } 
@@ -581,6 +581,12 @@ display: block;
     .mobile img{
       display: none !important;
     }
+
+    
+  .mobile{
+    display: flex;
+    width: max-content;
+  }
 
       
   /*======================================================
@@ -1137,4 +1143,40 @@ display: block;
       width: 270px;
       margin-top: 20px;
     }
+
+
+    /* products detail page */
+
+    .products-detail-section .headings{
+      margin-bottom: 0;
+      margin-top: 20px;
+    }
+
+    .stars{
+      padding-top: 0 !important;
+    }
+
+    .benefits{
+      padding-top: 0 !important;
+    }
+
+    .benefits ul li{
+      font-size: 12px;
+    }
+
+    .benefits ul li i {
+      font-size: 8px;
+  }
+
+  
+    /* footer */
+
+    .footer .row{
+      gap: 10px;
+    }
+
+    .footer-product-links ul{
+      gap: 10px !important;
+    }
+
 }

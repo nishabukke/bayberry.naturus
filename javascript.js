@@ -75,10 +75,8 @@ function activeTab(evt, id) {
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("active");
-        bounce[i].classList.add("active");
       } else {
         reveals[i].classList.remove("active");
-        bounce[i].classList.remove("active");
       }
     }
   }
